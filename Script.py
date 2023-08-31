@@ -7,7 +7,7 @@ Here are the help for my commands.
 🔗 For More Information Contact @Shahilakhtar 🔗</b>"""
 
     ABOUT_TXT = """<b><i>🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/Doraemonmoviebot><b>Movie Search Bot</b></a>\n
-👑 Oᴡɴᴇʀ : <a href=@Shahilakhtar><b>🏆 Vijay 🏆</b></a>\n
+👑 Oᴡɴᴇʀ : <a href=@Shahilakhtar><b>🏆 Shahil Akhtar 🏆</b></a>\n
 📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/SA_update><b>⚡ SA Bots ⚡</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
