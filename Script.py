@@ -5,7 +5,7 @@ class script(object):
 \n★ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs."""
 
     ABOUT_TXT = """<b><i>🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/YourSearchVJbot><b>Movie Search Bot</b></a>\n
-👑 Oᴡɴᴇʀ : <a href=@Shahilakhtar><b>🏆 Shahilakhtar 🏆</b></a>\n
+👑 Oᴡɴᴇʀ : <a href=@Shahilakhtar><b>🏆 Shahil Akhtar 🏆</b></a>\n
 📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/SA_update><b>⚡ SA Bots ⚡</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
@@ -97,7 +97,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 ★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
 ★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code></b>
-Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Sʜᴀʜɪʟᴀᴋʜᴛᴀʀ"""
+Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ - <a href="@Shahilakhtar">⚡ Shahil Akhtar ⚡</a>"""
 
     LOG_TEXT_G = """#NewGroup
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
