@@ -99,10 +99,15 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 ★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code></b>
 Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ - <a href="@Shahilakhtar">⚡ Shahil Akhtar ⚡</a>"""
 
-    LOG_TEXT_G = """#NewGroup
-Gʀᴏᴜᴘ = {}(<code>{}</code>)
-Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
-Aᴅᴅᴇᴅ Bʏ - {}"""
+    LOG_TEXT_G = """<b>#ɴᴇᴡ_ɢʀᴏᴜᴩ
+
+◉ ɢʀᴏᴜᴩ: {a}
+◉ ɢ-ɪᴅ: <code>{b}</code>
+◉ ʟɪɴᴋ: @{c}
+◉ ᴍᴇᴍʙᴇʀꜱ: <code>{d}</code>
+◉ ᴀᴅᴅᴇᴅ ʙʏ: {e}
+
+◉ ʙʏ: @{f}</b>"""
 
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
