@@ -241,7 +241,7 @@ async def next_page(bot, query):
                     ],
                 )
                 btn.insert(0, [
-        InlineKeyboardButton("⚡ How To Download ⚡", url=f"url=await get_tutorial(chat_id)")
+        InlineKeyboardButton("⚡ How To Download ⚡", url=await get_tutorial(chat_id))
     ])
         else:
             if 0 < offset <= int(MAX_B_TN):
@@ -1186,7 +1186,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/Vj_bots")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/Shahilakhtar")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1400,7 +1400,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ How To Download ⚡", url=f"url=await get_tutorial(chat_id)")
+        InlineKeyboardButton("⚡ How To Download ⚡", url=await get_tutorial(chat_id))
     ])
 
     if offset != "":
