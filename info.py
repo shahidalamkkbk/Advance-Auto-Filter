@@ -47,8 +47,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'mojahidalam8092')
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkpays.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'df4a166033c268c86a7d6588b0ce4c23bf5045e7')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'mklinks.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '7a303441c79d8055f7980b276074751171062094')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
