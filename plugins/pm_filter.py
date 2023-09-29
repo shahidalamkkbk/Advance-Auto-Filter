@@ -240,6 +240,9 @@ async def next_page(bot, query):
                         InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")
                     ],
                 )
+                btn.insert(0, [
+        InlineKeyboardButton("⚡ How To Download ⚡", url=f"url=await get_tutorial(chat_id)")
+    ])
         else:
             if 0 < offset <= int(MAX_B_TN):
                 off_set = 0
@@ -261,9 +264,6 @@ async def next_page(bot, query):
                         InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")
                     ],
                 )
-    btn.insert(0, [
-        InlineKeyboardButton("⚡ How To Download ⚡", url=f"https://t.me/How_to_download_movies_in_group/4")
-    ])
     try:
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
