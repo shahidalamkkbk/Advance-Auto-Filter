@@ -1400,7 +1400,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ How To Download ⚡", url=f"https://t.me/How_to_download_movies_in_group/4")
+        InlineKeyboardButton("⚡ How To Download ⚡", url=f"url=await get_tutorial(chat_id)")
     ])
 
     if offset != "":
