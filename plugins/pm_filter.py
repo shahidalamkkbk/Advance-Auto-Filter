@@ -241,7 +241,7 @@ async def next_page(bot, query):
                     ],
                 )
                 btn.insert(0, [
-        InlineKeyboardButton("⚡ How To Download ⚡", url=await get_tutorial(chat_id))
+        InlineKeyboardButton("⚡ How To Download ⚡", url=await get_tutorial)
     ])
         else:
             if 0 < offset <= int(MAX_B_TN):
@@ -1400,7 +1400,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ How To Download ⚡", url=await get_tutorial(chat_id))
+        InlineKeyboardButton("⚡ How To Download ⚡", url=await get_tutorial)
     ])
 
     if offset != "":
