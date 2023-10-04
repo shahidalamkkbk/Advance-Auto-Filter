@@ -6,7 +6,7 @@ class script(object):
 
     ABOUT_TXT = """<b><i>🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/Movies_X_Robot><b>Salman Khan</b></a>\n
 👑 Oᴡɴᴇʀ : <a href=@Shahilakhtar><b>🏆 Shahil Akhtar 🏆</b></a>\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/SA_update><b>⚡ SA Bots ⚡</b></a>\n
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/SA_Bots_Mklinks><b>⚡ SA Bots ⚡</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n
@@ -97,7 +97,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 ★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
 ★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code></b>
-Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ - <a href="@Shahilakhtar">⚡ Shahil Akhtar ⚡</a>"""
+Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ - <a href=@Shahilakhtar><b> Shahil Akhtar </b></a>"""
 
     LOG_TEXT_G = """<b>#ɴᴇᴡ_ɢʀᴏᴜᴩ
 
@@ -169,7 +169,9 @@ Owner Will Update The Movie Within 24Hour"""
 ♦️ <b>Requested By : {}</b>
 ♦️ <b>User ID</b> : `{}` """
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ :<a href=https://t.me/allmovies_webserieshere> {file_name} </a>"""
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : <a href=https://t.me/SA_Bots_Mklinks> {file_name} </a>
+
+    ⚙️ SIZE ➠ : {file_size}"""
 
     IMDB_TEMPLATE_TXT = """<b><i>📟 ᴛɪᴛᴛʟᴇ :</b></i> {title} \n<b><i>🌟 ʀᴀᴛɪɴɢ :</b></i> {rating} \n<b><i>🎭 ɢᴇɴʀᴇ :</b></i> {genres} \n<b><i>📆 ʀᴇʟᴇᴀsᴇ :</b></i> {year} </b></i>\n<b><i>⏰ ᴅᴜʀᴀᴛɪᴏɴ :</b></i> {runtime}\n\n<b><i>🔖 𝓟𝓵𝓸𝓽  :</b></i> `{plot}` \n\n<b><i>⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ⚡ :</b></i> {message.chat.title} \nThis Message Will Be Deleted After 10 Minutes To Avoid Copyright"""
 
